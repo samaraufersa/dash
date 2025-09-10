@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="DashCOVID", layout="wide")
+st.set_page_config(
+    page_title="DashCovid",
+    layout="wide")
 
 df = pd.read_csv('WHO_time_series_projeto.csv')
 

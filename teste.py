@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(
-    page_title="DASHCOVID - Um dasboard para análise de dados",
-    layout="wide")
+st.set_page_config(page_title="InSocio - Indicadores Sociais da Pandemia", layout="wide")
 
 df = pd.read_csv('WHO_time_series_projeto.csv')
 
